@@ -10,7 +10,6 @@ This repository contains the code for a mobile application developed using Flutt
 - [Model](#model)
 - [Docker Integration](#docker-integration)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Introduction
@@ -76,19 +75,6 @@ You can find the Docker image for the Flask server at:
 The Flask application is deployed and can be accessed at:
 [Flask Docker App](https://flask-docker-vz33dvwhnq-uc.a.run.app/upload)
 
-### Running Locally with Docker
-
-1. **Pull the Docker image:**
-    ```bash
-    docker pull dhars1n1/flask_docker
-    ```
-
-2. **Run the Docker container:**
-    ```bash
-    docker run -p 5000:5000 dhars1n1/flask_docker
-    ```
-
-3. Access the Flask app at `http://localhost:5000/upload`.
 
 ## Contributing
 
@@ -99,10 +85,6 @@ Contributions are welcome! If you have any ideas, suggestions, or improvements, 
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
 4. Push to the branch (`git push origin feature/AmazingFeature`).
 5. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
